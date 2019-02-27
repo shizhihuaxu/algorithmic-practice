@@ -23,10 +23,10 @@ var rotate1 = function(nums, k) {
     }
 };
 
-let nums = [1, 2, 3, 4, 5, 6, 7]
-let k = 3
-rotate1(nums, k)
-console.log(nums)
+let nums1 = [1, 2, 3, 4, 5, 6, 7]
+let k1 = 3
+rotate1(nums1, k1)
+console.log(nums1)
 
 
 // -------------------------  方法二  -----------------------------
@@ -57,8 +57,8 @@ var rotate2 = function(nums, k) {
         roating = temp // 继续操作下一个元素 暂存元素的值
     }
 }
-let nums = [-1, -100, 3, 99]
-let k = 2
+let nums2 = [-1, -100, 3, 99]
+let k2 = 2
 
-rotate2(nums, k)
-console.log(nums)
+rotate2(nums2, k2)
+console.log(nums2)
